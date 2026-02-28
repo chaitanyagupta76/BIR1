@@ -4,13 +4,16 @@ import { useState, useRef, useEffect } from "react";
 import { Volume2, VolumeX } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+import images from "@/config/images.json";
+
 export function BackgroundMusic() {
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef<HTMLAudioElement | null>(null);
 
     useEffect(() => {
-        // Create audio element
-        audioRef.current = new Audio("/assets/audio/background-music.mp3");
+        // Use local path if exists, otherwise fallback to a royalty-free CDN URL
+        const audioPath = images.assets.music || "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3";
+        audioRef.current = new Audio(audioPath);
         audioRef.current.loop = true;
 
         return () => {

@@ -28,7 +28,8 @@
   "assets": {
     "balloons": "/assets/images/balloons.png",
     "confetti": "/assets/images/confetti.png",
-    "loader": "/assets/images/boss-baby-loader.png"
+    "loader": "/assets/images/boss-baby-loader.png",
+    "music": "/assets/audio/background-music.mp3"
   },
   "adventure": {
     "photos": [
