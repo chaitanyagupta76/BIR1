@@ -1,0 +1,62 @@
+{
+  "theme": {
+    "colors": {
+      "navy": "#001F3F",
+      "gold": "#D4AF37",
+      "accent": "#0074D9"
+    }
+  },
+  "defaultLanguage": "en",
+  "sections": {
+    "hero": { "enabled": true },
+    "timeline": { "enabled": true },
+    "venue": { "enabled": true },
+    "livestream": { "enabled": true },
+    "waiting": { "enabled": true },
+    "adventure": { "enabled": true }
+  },
+  "event": {
+    "kidName": "Arnav",
+    "eventTitle": "Arnav's 1st Birthday",
+    "date": "2026-03-15",
+    "time": "11:00 AM",
+    "venueName": "Grand Palace Hall",
+    "address": "123 Celebration St, Hyderabad, TG",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.757706324684!2d78.38466637500125!3d17.42438318346146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc8c4f5555%3A0x633d3c88029a1b!2sHITEX%20Exhibition%20Center!5e0!3m2!1sen!2sin!4v1709200000000!5m2!1sen!2sin",
+    "livestreamUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "languages": {
+    "en": {
+      "heroTitle": "Arnav Turning 1",
+      "heroSubtitle": "The Boss Baby is arriving!",
+      "timelineTitle": "My First Year Journey",
+      "venueTitle": "Join the Party",
+      "livestreamTitle": "Watch Live",
+      "waitingTitle": "Waiting for Your Presence",
+      "adventureTitle": "My Adventure",
+      "adventureSubtitle": "Post-Party Fun & Memories",
+      "rsvpButton": "RSVP on WhatsApp",
+      "monthsLabel": "Months",
+      "venueDetails": "Venue Details",
+      "addressLabel": "Address",
+      "dateLabel": "Date",
+      "timeLabel": "Time"
+    },
+    "te": {
+      "heroTitle": "ఆర్నవ్ 1వ పుట్టినరోజు",
+      "heroSubtitle": "బాస్ బేబీ వస్తున్నాడు!",
+      "timelineTitle": "నా మొదటి సంవత్సరం ప్రయాణం",
+      "venueTitle": "వేడుకలో చేరండి",
+      "livestreamTitle": "ప్రత్యక్ష ప్రసారం",
+      "waitingTitle": "మీ రాక కోసం ఎదురుచూస్తున్నాము",
+      "adventureTitle": "నా అడ్వెంచర్",
+      "adventureSubtitle": "పార్టీ తర్వాత సరదా జ్ఞాపకాలు",
+      "rsvpButton": "వాట్సాప్‌లో తెలియజేయండి",
+      "monthsLabel": "నెలలు",
+      "venueDetails": "వేదిక వివరాలు",
+      "addressLabel": "చిరునామా",
+      "dateLabel": "తేదీ",
+      "timeLabel": "సమయం"
+    }
+  }
+}

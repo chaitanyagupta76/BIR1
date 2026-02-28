@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #e6f0ff;
+  --color-navy-100: #ccddff;
+  --color-navy-200: #99bbff;
+  --color-navy-300: #6699ff;
+  --color-navy-400: #3377ff;
+  --color-navy-500: #0055ff;
+  --color-navy-600: #0044cc;
+  --color-navy-700: #003399;
+  --color-navy-800: #002266;
+  --color-navy-900: #001133;
+
+  --color-gold-50: #fff9e6;
+  --color-gold-100: #fef2cc;
+  --color-gold-200: #fde599;
+  --color-gold-300: #fbd866;
+  --color-gold-400: #facc33;
+  --color-gold-500: #f9bf00;
+  --color-gold-600: #c79900;
+  --color-gold-700: #957200;
+  --color-gold-800: #634c00;
+  --color-gold-900: #322600;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(0, 31, 63, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}

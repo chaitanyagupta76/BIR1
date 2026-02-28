@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "background": "/assets/images/hero-bg.jpg",
+    "kid": "/assets/images/kid-hero.png"
+  },
+  "timeline": {
+    "babyCrawler": "/assets/images/boss-baby-crawl.png",
+    "babyPlacard": "/assets/images/boss-baby-standing.png",
+    "months": [
+      { "url": "/assets/images/month-1.jpg", "number": 1, "text": "Arriving in Style" },
+      { "url": "/assets/images/month-2.jpg", "number": 2, "text": "Two Months of Cuteness" },
+     { "url": "/assets/images/month-8.jpg", "number": 8, "text": "Eight Months of Joy" },
+      { "url": "/assets/images/month-9.jpg", "number": 9, "text": "Executive Level Cuteness" },
+      { "url": "/assets/images/month-10.jpg", "number": 10, "text": "Ten Months Strong" },
+      { "url": "/assets/images/month-11.jpg", "number": 11, "text": "Almost the Big Day" },
+      { "url": "/assets/images/month-12.jpg", "number": 12, "text": "Finally One!" }
+    ]
+  },
+  "venue": {
+    "photos": [
+      "/assets/images/venue-1.jpg",
+      "/assets/images/venue-2.jpg"
+    ]
+  },
+  "waiting": {
+    "background": "/assets/images/waiting-bg.jpg"
+  },
+  "assets": {
+    "balloons": "/assets/images/balloons.png",
+    "confetti": "/assets/images/confetti.png",
+    "loader": "/assets/images/boss-baby-loader.png"
+  },
+  "adventure": {
+    "photos": [
+      "/assets/images/adventure-1.jpg",
+      "/assets/images/adventure-2.jpg",
+      "/assets/images/adventure-3.jpg",
+      "/assets/images/adventure-4.jpg"
+    ]
+  }
+}
